@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+
+	<section class="white">
+		<img src="02.png" alt="" class="rellax" data-rellax-speed="7">
+		<img src="02.png" alt="" class="rellax" data-rellax-speed="2">
+		<img src="02.png" alt="" class="rellax" data-rellax-speed="7">
+		<img src="02.png" alt="" class="rellax" data-rellax-speed="7">
+	</section>
+	<section class="parallax-window"  data-parallax="scroll" data-image-src="01.jpg"></section>
+	<section class="white"></section>
+	<section class="parallax-window"  data-parallax="scroll" data-image-src="01.jpg" ></section>
+
+    <style>
+    	section{
+    		height: 100vh;
+    		padding-top: 50vh;
+    	}
+    	.white{
+    		background-color: white;
+    	}
+    </style>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <script src="rellax.min.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax');
+    </script>
+</body>
+</html>
